@@ -1,0 +1,10 @@
+.images-thubnails>img{
+    width: 17%;
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.images-thubnails img:hover{
+    transform: scale(1.08);
+}
